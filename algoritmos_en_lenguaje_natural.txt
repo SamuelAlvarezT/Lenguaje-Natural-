@@ -1,0 +1,100 @@
+Nombre Algoritmo: Hora-Futura
+
+Entrada: Un numero  entero.
+
+Salida: Hora futura.
+
+Pasos:
+
+1. Se solicita la hora actual en formato 24 h .
+2. .Se solicita en numero en formato 24 h ,
+3.se solcita la cantidad de horas futuras
+3. Leer los números.
+4. Se suma al hora actual y la hora futura.
+5. Si la suma es menor que 24 se muestra el resultado, si el resultado suma mas de 24 se usa la función MOD 24  para calcular la hora futura.
+6. se muestra la hora actual y la hora futura.
+
+
+
+Nombre Algoritmo: Que nota necesito:
+Entrada: Tres números enteros.
+Salida: Nota necesaria.
+
+Pasos:
+1.Leer la nota del primer certamen.
+2.Leer la nota del segundo certamen.
+3.Leer la nota del laboratorio.
+4.Se hace la siguiente formula (60-(NL*0.3))/0.7 para saber la nota necesaria en el promedio de certamenes.
+5.Se hace la siguiente formula (Nc*3)-(C1+C2) para saber la nota necesaria en el certamen 3.
+6. se muestra el resulado anterior como la nota minimma para pasar.
+
+Nombre Algoritmo: Numero invertido
+Entrada: Un numero entero.
+Salida:Numero entero inverso.
+Pasos:
+
+1. Leer el numero entero. 
+2.asignar los numeros en variables
+3.leer las variables
+4. se muestra las variables en en forma inversa a la asignada.
+
+   
+
+Nombre Algoritmo: Año bisiesto
+Entrada: Un numero entero.
+Salida: Resultado de si el año es bisiesto o no.
+Pasos:
+
+1. Leer el numero entero.
+2. Se verifica si el numero es mayor a 1582, si lo es se divide en 100 y si su residuo es igual a 0 (de  no ser  0 omitir paso 3),se divide en 400 y si su  residuo es igualmente 0 es un año bisiesto.
+3. El numero entero se divide en 4 y si su residuo es igual a 0 es un año bisiesto.
+4. Se verifica si cumple una de las 2 anteriores condiciones, si no cumple alguna de las 2 no es un año bisiesto.
+5. Se muestra si el año es bisiesto o no.
+
+Nombre Algoritmo: Edad
+Entrada: Tres numeros enteros.
+Salida: Edad de la persona.
+Pasos:
+
+1. Leer el año de nacimiento.
+2. Leer el mes de nacimiento.
+3. Leer el dia de nacimiento.
+4. Se resta el año de nacimiento al año actual.
+5. Se resta el mes de nacimiento al mes actual.
+6. Si el resultado del paso 5 es negativo, se le resta 1 al resultado del paso 4. Si el resultado es 0 se resta el dia de nacimiento al dia actual, si el resultado es negativo se le resta 1 al resultado del paso 4.
+7. Si no se cumplen las condiciones del paso 6, el resultado de la edad es igual al paso 4, pero si se cumplen las condiciones del paso 6 se le resta 1.
+8. Se muestra el numero indicado en el paso 7 como la edad de la persona.
+
+Nombre Algoritmo: Determiar Par
+Entrada: Un numero entero.
+Salida: Respuesta si el numero es par o impar.
+Pasos:
+   1.Leer el numero entero.
+
+2. se divide el numero entero en 2.
+3. Se toma el residuo de la division en el punto 2.
+4. Si el residuo es igual a 0 es un numero par, si el resudio es diferente es un numero impar.
+5. Se Muestra si el numero es par o impar dependiendo del resultado en el punto 4.
+
+Nombre Algoritmo: Tiempo de viaje
+Entrada: Numeros enteros
+Salida: Horas de trayecto
+Pasos:
+
+1. Leer numeros enteros, hasta que se ingrese un 0.
+2. Se suma todos los numeros enteros leidos en el punto 1.
+3. Dividir el resultado del punto 2 en 60.
+4. Se multiplica el decimal del resultado del paso anterior x 6.
+5. Tomamar el numero entero del punto 3 (Son las horas transcurridas) ,  luego se muestra  el resultado del punto 4 
+6. Se muestra el resultado del punto 5, siendo el primero horas transcurridos y el siguiente minutos transcurridos.
+
+Nombre Algoritmo: Parte Decimal
+Entrada: Numero real.
+Salida: Resultado de numero decimal.
+Pasos:
+
+1. Leer el numero real.
+2. Verificar si el numero es positivo o negativo.
+3. Si el numero es positivo se le resta su numero entero, Si el numero es negativo se le suma su numero entero.
+4. Se muestra el resultado del punto anterior.
+
